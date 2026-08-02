@@ -17,8 +17,8 @@ export function Section({ id, file, title, children, className = "" }: SectionPr
     >
       <div className="mb-8 flex items-baseline gap-3">
         <span className="text-xs text-muted" aria-hidden="true">
-          //
-        </span>
+  {"//"}
+</span>
         <span className="text-xs tracking-wide text-muted">{file}</span>
       </div>
       <h2 className="mb-6 text-lg font-semibold text-fg sm:text-xl">{title}</h2>
