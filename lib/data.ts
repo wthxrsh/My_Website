@@ -8,7 +8,7 @@ export const titles: string[] = [
 ];
 
 export const heroSummary =
-  "I enjoy building scalable backend systems, distributed services, and cloud-native applications. I'm currently focused on Java, Spring Boot, PostgreSQL, Redis, Kafka, Docker, and Microsoft Azure.";
+  "I enjoy building scalable backend systems, distributed services, and cloud-native applications. I'm currently focused on Java, Spring Boot, PostgreSQL, Redis, Kafka, Docker, and AWS.";
 
 export const aboutParagraphs: string[] = [
   "I'm a backend-focused engineer who likes systems that stay correct under load. Most of my time goes into designing APIs, modeling data, and understanding how services fail before they actually do.",
@@ -38,7 +38,7 @@ export const skillGroups: SkillGroup[] = [
     ],
   },
   { category: "Database", items: ["PostgreSQL", "Redis", "MySQL"] },
-  { category: "Cloud", items: ["Microsoft Azure", "Docker", "Kubernetes"] },
+  { category: "Cloud", items: ["AWS", "Docker", "Kubernetes"] },
   { category: "Messaging", items: ["Apache Kafka"] },
   {
     category: "Core CS",

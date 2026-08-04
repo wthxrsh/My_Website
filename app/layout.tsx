@@ -11,7 +11,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 const title = `${siteConfig.name} — Backend Engineer`;
 const description =
-  "Backend developer focused on distributed systems, cloud-native applications, and scalable service design. Working with Java, Spring Boot, PostgreSQL, Redis, Kafka, Docker, and Azure.";
+  "Backend developer focused on distributed systems, cloud-native applications, and scalable service design. Working with Java, Spring Boot, PostgreSQL, Redis, Kafka, Docker, and AWS.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.domain),
