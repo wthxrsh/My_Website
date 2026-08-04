@@ -1,60 +1,36 @@
 # Harsh Shah — Portfolio
 
-A minimal, dark-mode-only portfolio built for a backend/distributed-systems engineer.
-Next.js 15 (App Router) + TypeScript + Tailwind CSS. No UI framework beyond Tailwind,
-no animation library — just fade/hover transitions.
+Backend and distributed systems engineer building reliable systems and developer tools.
 
-## Before you deploy
+Live portfolio: https://harshshahse.vercel.app
 
-Everything personal lives in **one file**: `lib/config.ts`. Open it and replace:
+## About Me
 
-- `email` — your real email
-- `links.github` / `links.linkedin` / `links.leetcode` — your real profile URLs
-- `domain` — your production URL (used for metadata/Open Graph)
+I design and ship backend systems that scale, automate, and simplify operations.
+I have experience with distributed systems, cloud infrastructure, APIs, and data engineering.
+I enjoy turning complex problems into clean, maintainable solutions.
 
-Then add your resume as `public/resume.pdf` (the Download Resume button links to
-`/resume.pdf`).
+## What I Do
 
-Project GitHub links live in `lib/data.ts` (the `projects` array) — update
-`githubUrl` for each, and add a `liveUrl` if a project has a live demo.
+- Backend architecture and distributed systems
+- RESTful APIs, microservices, and event-driven design
+- Cloud infrastructure and deployment automation
+- System reliability, performance, and observability
 
-## Getting started
+## Featured Sections
 
-```bash
-npm install
-npm run dev
-```
+- Hero: introduction and contact links
+- About: background, interests, and technical strengths
+- Skills: core technologies and tools I use daily
+- Experience: recent work and engineering responsibilities
+- Projects: hands-on work with code links and demos
+- Resume: downloadable CV
+- Contact: email and social links
 
-Open http://localhost:3000.
+## Portfolio Focus
 
-## Build
+This site is a polished portfolio that highlights my engineering experience and selected projects.
+It is designed to be minimal, dark-themed, and easy to navigate.
 
-```bash
-npm run build
-npm run start
-```
+Visit the live site at https://harshshahse.vercel.app to view the full portfolio experience.
 
-## Deploy
-
-Push to a Git repo and import it on [Vercel](https://vercel.com/new) — no extra
-configuration needed.
-
-## Structure
-
-```
-app/
-  layout.tsx      — metadata, fonts, root shell
-  page.tsx         — assembles all sections
-  globals.css      — Tailwind + base styles
-  icon.svg         — favicon
-components/
-  sections/        — Hero, About, Skills, Experience, Projects, Resume, Contact
-  layout/          — Footer
-  ui/              — Button, Section (shared primitives)
-lib/
-  config.ts        — personal info & links (edit this)
-  data.ts          — skills, projects, experience content
-  types.ts         — shared TypeScript types
-```
-# My_Website
-# My_Website
