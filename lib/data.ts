@@ -21,8 +21,8 @@ export const interests: string[] = [
   "Distributed Systems",
   "Cloud",
   "Linux",
-  "Running",
-  "Chess",
+  "Architect",
+  "Learner",
 ];
 
 export const skillGroups: SkillGroup[] = [
